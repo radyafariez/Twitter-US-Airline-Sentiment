@@ -13,4 +13,4 @@ Username Dicoding : radyafariez
 |Metode pengolahan	     | Metode pengolahan data menggunakan tokenisasi dari input berupa fitur teks yang dikonversi menjadi susunan angka untuk dapat diproses di tahap training model.                                     |
 |Arsitektur model	       | Arsitektur model menggunakan layer TextVectorization yang berperan melanjutkan proses input dalam susunan angka, lalu Embedding layer mengidentifikasi _similarity_ atau kedekatan dari kata per kata untuk mengetahui apakah sentimen berupa sentimen negatif, positif atau netral.                                          |
 |Metrik evaluasi	       | Evaluasi performa model pada proyek ini dilakukan dengan menggunakan metrik BinaryAccuracy, TruePositive, TrueNegative, FalsePositive dan FalseNegative.                                    |
-|Performa model	         | Deksripsi performa model yang dibuat                                 |
+|Performa model	         | Model yang dibuat telah menghasilkan performa _binary_accuracy_ senilai 0.69798 atau 69% dalam memprediksi sentimen berdasarkan input yang telah diolah sebelumnya.                                        |
